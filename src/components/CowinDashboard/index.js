@@ -52,11 +52,11 @@ class CowinDashboard extends Component {
     } = covidVaccinationData
 
     return (
-      <div>
+      <>
         <VaccinationCoverage last7DaysVaccination={last7DaysVaccination} />
         <VaccinationByGender vaccinationByGender={vaccinationByGender} />
         <VaccinationByAge vaccinationByAge={vaccinationByAge} />
-      </div>
+      </>
     )
   }
 
